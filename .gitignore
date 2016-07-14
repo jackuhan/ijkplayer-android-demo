@@ -1,8 +1,56 @@
+# built application files
+*.apk
+*.ap_
+# files for the dex VM
+*.dex
+# Java class files
+*.class
+# Android generated files
+bin/
+gen/
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Eclipse project files
+.classpath
+.project
+.settings
+.factorypath
+.apt_generated
+# Maven related
+target/
+# Checkstyle
+.checkstyle
+# Android Lint
+lint.xml
+
+# IntelliJ
+.idea
+*.iml
+*.ipr
+*.iws
+classes
+gen-external-apklibs
+out/
+
+# Gradle
 .gradle
-/local.properties
-/.idea/workspace.xml
-/.idea/libraries
-.DS_Store
-/build
-/captures
-android-ndk-prof
+build
+*/build/
+*/bin/
+*/gen/
+*/out/
+# Misc.
+*.DS_Store
+*.jar.properties
+cache.properties
+cache.properties.lock
+# Crashlytics
+com_crashlytics_export_strings.xml
+
+.svn/
+L/Demos/MD-BiliBili/MDBilibili/player-arm64/src/main/jni/ijkmedia
+L/Demos/MD-BiliBili/MDBilibili/player-armv5/src/main/jni/ijkmedia
+L/Demos/MD-BiliBili/MDBilibili/player-armv7a/src/main/jni/ijkmedia
+L/Demos/MD-BiliBili/MDBilibili/player-x86/src/main/jni/ijkmedia
+L/Demos/MD-BiliBili/MDBilibili/player-x86/src/main/jni/ffmpeg/include
